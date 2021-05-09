@@ -1,0 +1,73 @@
+footer {
+  background: $primary;
+  color: $white;
+
+  .navigation {
+    padding: 20px 0;
+
+    h3 {
+      color: $white;
+    }
+
+    ul {
+      li {
+        a {
+          color: $white;
+
+          &:hover {
+            color: $white;
+            text-decoration: none;
+          }
+
+          &::before {
+            font: {
+              family: $fontIcon;
+              size: $font12;
+            }
+
+            content: $icon-arrow-right;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+
+    .icons {
+      .icon {
+        padding-left: 10px;
+      }
+    }
+  }
+
+  .contactFooter {
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+
+  .privacy {
+    font: {
+      family: $fontLight;
+      size: $font14;
+    }
+
+    padding: 10px 0;
+    background: $dark;
+
+    a {
+      color: $white;
+
+      &:hover {
+        color: $white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #voorwaard {
+    text-align: unset !important;
+  }
+}

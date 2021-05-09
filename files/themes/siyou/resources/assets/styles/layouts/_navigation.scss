@@ -1,0 +1,255 @@
+.uk-navbar {
+  padding-top: 20px;
+  height: 120px;
+
+  @include zindex(3);
+
+  .uk-navbar-nav {
+    li {
+      a {
+        font: {
+          family: $fontMedium;
+          size: $font18;
+        }
+
+        color: $white;
+        min-height: unset;
+        padding: 0;
+        margin-top: 10px;
+        // padding-bottom: 10px;
+
+        &:hover {
+          border-bottom: 3px $white solid;
+          padding-bottom: 0;
+        }
+      }
+
+      &.current-menu-item {
+        a {
+          font: {
+            family: $fontBold;
+          }
+        }
+      }
+
+      margin-left: 25px;
+    }
+
+    //display: none;
+  }
+}
+
+.uk-logo {
+  // padding: 10px 20px 10px 20px;
+  margin-top: -10px;
+}
+
+#menu-item-44 {
+  a {
+    border: 1px solid $white;
+    padding: 10px 20px 10px 20px;
+    margin-top: 0;
+
+    &:hover {
+      color: $gradient2;
+      background: $white;
+    }
+
+    &::after {
+      font: {
+        family: $fontIcon;
+        size: $font12;
+      }
+
+      content: $icon-arrow-right;
+      margin-left: 5px;
+    }
+  }
+
+  &.current-menu-item {
+    a {
+      background-color: $white;
+      color: $gradient2;
+
+      &::after {
+        font: {
+          family: $fontIcon;
+        }
+
+        content: $icon-arrow-right;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+.mobile-menu {
+  display: none;
+
+  .uk-navbar-toggle {
+    min-height: 60px;
+    padding-right: 0;
+    padding-top: 30px;
+
+    font: {
+      family: $fontRegular;
+      size: $font16;
+    }
+
+    color: $black;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .uk-offcanvas {
+    width: 100%;
+    z-index: 1;
+
+    .uk-offcanvas-bar {
+      padding: 0;
+      width: 100%;
+      background: $gradient2;
+
+      .uk-logo {
+        padding-top: 30px;
+      }
+
+      header {
+        height: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      button {
+        background: none;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        color: $white;
+
+        &:hover {
+          color: $white;
+        }
+      }
+
+      .close {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        span {
+          font: {
+            family: $fontRegular;
+            size: 16px;
+          }
+
+          color: $black;
+          margin-right: 45px !important;
+        }
+
+        .uk-offcanvas-close {
+          position: relative;
+          stroke-width: 2px !important;
+          padding-bottom: 10px;
+        }
+      }
+
+      hr {
+        border-top: 1px solid $white;
+      }
+
+      .belons {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 20px;
+      }
+
+      .menu-items {
+        .uk-inline {
+          width: 100%;
+
+          .search {
+            &:focus {
+              color: $primary;
+            }
+          }
+        }
+
+        .uk-nav {
+          li {
+            a {
+              font: {
+                size: $font40;
+                family: $fontRegular;
+              }
+
+              color: $white;
+              padding-left: 20%;
+
+              &::before {
+                font: {
+                  family: $fontIcon;
+                  size: $font30;
+                }
+
+                content: $icon-arrow-right;
+                margin-right: 5px;
+              }
+            }
+
+            &.current-menu-item {
+              a {
+                background-color: $secondary;
+                color: $white;
+                // width: 100% !important;
+              }
+            }
+
+            padding-top: 15px;
+          }
+
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .uk-navbar-nav {
+    display: none;
+  }
+
+  .uk-navbar {
+    padding-top: 0;
+  }
+
+  .mobile-menu {
+    display: block;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .uk-logo {
+    padding: 0;
+    // padding-bottom: 10px;
+    width: 250px;
+    height: 80px;
+
+    img {
+      padding-top: 15px;
+    }
+  }
+
+  .aanmelden {
+    display: none;
+  }
+
+  .menu-items {
+    div {
+      width: 100%;
+    }
+  }
+}

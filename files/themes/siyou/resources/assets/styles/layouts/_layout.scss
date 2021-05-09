@@ -1,0 +1,319 @@
+.aanmelden {
+  width: 90px;
+  height: 90px;
+  top: 150px;
+  right: 0;
+  border-radius: 10px 0 0 10px;
+  background: $white;
+
+  @include zindex(9999);
+  @include shadow(0 0 20px 5px rgba(0, 0, 0, 0.1));
+
+  a {
+    font: {
+      family: $fontRegular;
+      size: $font12;
+    }
+
+    color: $secondary;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  div {
+    padding-left: 15px;
+
+    i {
+      padding-left: 10px;
+    }
+  }
+}
+
+.uspHome {
+  position: relative;
+  margin-top: -110px;
+  background: $white;
+  padding: 50px 40px 20px 40px;
+  color: $text;
+  box-sizing: border-box;
+
+  @include shadow(0 0 20px 5px rgba(0, 0, 0, 0.1));
+
+  ul {
+    li {
+      margin-bottom: 20px;
+      list-style: none;
+
+      .i {
+        i {
+          color: $secondary;
+        }
+
+        margin-bottom: 0;
+      }
+
+      .text123 {
+        margin-left: 10px;
+      }
+
+      p {
+        // padding: 0 40px 0 30px;
+
+        font: {
+          family: $fontLight;
+          size: $font16;
+        }
+      }
+    }
+
+    // padding-left: 10px;
+  }
+}
+
+.contentHomeLijst {
+  margin-left: 60px;
+}
+
+.slideIcon {
+  fill: $secondary;
+}
+
+.functionality {
+  .image {
+    border-bottom: 2px solid $dark;
+
+    @include shadow(0 10px 40px -25px rgba(0, 0, 0, 0.75));
+  }
+}
+
+.rounded {
+  border-radius: 45px 45px 0 0;
+  padding-top: 50px;
+}
+
+.uk-hidden {
+  display: flex !important;
+}
+
+.integrations {
+  position: relative;
+  padding: 0;
+  color: $white;
+
+  @include zindex(1);
+
+  .content {
+    position: relative;
+    padding: 40px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @include zindex(2);
+
+    .imgwrapper {
+      background: $white;
+      margin-bottom: 20px;
+
+      @include shadow(0 10px 40px -25px rgba(0, 0, 0, 0.75));
+    }
+
+    h2 {
+      color: $white;
+    }
+
+    h3 {
+      color: $white;
+    }
+  }
+
+  .background-top {
+    background-repeat: no-repeat;
+    background-position: center top;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+
+    @include zindex(1);
+  }
+
+  .background-bottom {
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+
+    @include zindex(1);
+  }
+}
+
+.logos {
+  position: relative;
+  margin-top: -60px;
+  background: $white;
+  padding: 40px 60px;
+
+  @include zindex(2);
+
+  i {
+    color: $secondary;
+    width: 40px;
+    height: 40px;
+  }
+
+  .uk-dotnav {
+    a {
+      border: none;
+      background: rgba($secondary, 0.5);
+    }
+
+    .uk-active {
+      a {
+        background: $secondary;
+      }
+    }
+  }
+}
+
+.testimonials {
+  position: relative;
+  padding: 0;
+  background: $lightgrey;
+
+  @include zindex(3);
+
+  .content {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    max-width: 70%;
+
+    @include zindex(2);
+
+    .comment {
+      border-radius: 30px 30px 30px 0;
+      background: $comment;
+      // background-image: url(/files/themes/siyou/dist/images/tekstballon-testimonials.png);
+      padding: 20px;
+      bottom: 85px;
+      left: 38px;
+      width: calc(100% - 100px);
+
+      @include shadow(0 0 20px 5px rgba(0, 0, 0, 0.1));
+
+      p {
+        font: {
+          family: $fontItalic;
+        }
+
+        color: $white;
+
+        &.author {
+          font: {
+            family: $fontMedium;
+            size: $font20;
+          }
+        }
+      }
+
+      .uk-dotnav {
+        a {
+          border: none;
+          background: rgba($white, 0.5);
+        }
+
+        .uk-active {
+          a {
+            background: $white;
+          }
+        }
+      }
+    }
+  }
+
+  .background-top {
+    background-repeat: no-repeat;
+    background-position: center top;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+
+    @include zindex(1);
+  }
+
+  .background-bottom {
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+
+    @include zindex(1);
+  }
+}
+
+.register {
+  position: relative;
+  margin-top: -60px;
+  padding: 40px 0;
+  color: $white;
+
+  @include zindex(4);
+
+  h2,
+  h3 {
+    color: $white;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials {
+    .content {
+      max-width: 100%;
+
+      .comment {
+        width: unset;
+      }
+
+      padding-bottom: 80px;
+    }
+  }
+
+  .uspHome {
+    ul {
+      li {
+        p {
+          padding-right: 0;
+        }
+      }
+
+      padding-left: 0;
+    }
+
+    margin-top: -110px;
+  }
+
+  .bandMobile {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    .ulContact {
+      padding-left: 0;
+    }
+  }
+
+  .uk-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+#textForm {
+  font-size: $font32;
+}

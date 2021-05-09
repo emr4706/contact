@@ -1,0 +1,553 @@
+.uspContact {
+  position: relative;
+  margin-top: -120px;
+  background: $white;
+  padding: 40px 60px 20px 60px;
+  color: $text;
+  box-sizing: border-box;
+
+  @include shadow(0 0 20px 5px rgba(0, 0, 0, 0.1));
+
+  ul {
+    li {
+      margin-bottom: 20px;
+      list-style: none;
+
+      h3 {
+        padding-top: 10px;
+      }
+
+      svg {
+        fill: $secondary;
+      }
+
+      a {
+        text-decoration: none;
+        color: unset;
+      }
+    }
+  }
+}
+
+#registerHight {
+  min-height: unset;
+}
+
+.integratiText {
+  padding-left: 50px;
+  padding-right: 50px;
+
+  font: {
+    family: $fontLight;
+  }
+}
+
+.integratieList {
+  padding-left: 30px;
+}
+
+.uspRegister {
+  position: relative;
+  margin-top: -120px;
+  background: $white;
+  padding: 40px 60px 20px 60px;
+  color: $text;
+  box-sizing: border-box;
+
+  h1 {
+    color: $black;
+  }
+
+  @include shadow(0 0 20px 5px rgba(0, 0, 0, 0.1));
+
+  #form {
+    #gform_submit_button_2 {
+      height: 60px;
+      padding: 10px 60px 10px 60px;
+      background-color: $secondary !important;
+      color: $white;
+      border: none;
+
+      font: {
+        size: $font18;
+        family: $fontRegular;
+      }
+    }
+
+    max-width: 600px !important;
+  }
+}
+
+#registertext {
+  color: $white !important;
+}
+
+//js code
+#datalist li:nth-child(n+9) {
+  display: none;
+}
+
+.datalist {
+  padding-left: 0;
+}
+
+#span {
+  cursor: pointer;
+}
+
+//form button
+
+#gform_submit_button_1 {
+  height: 60px;
+  padding: 10px 60px 10px 60px;
+  background-color: $secondary;
+  color: $white;
+  border: none;
+
+  font: {
+    font: {
+      size: $font18;
+      family: $fontRegular;
+    }
+  }
+}
+
+#gform_fields_1 {
+  input {
+    height: 45px;
+    border: 1px solid  $darkGrey;
+  }
+
+  font: {
+    size: $font18;
+    family: $fontRegular;
+  }
+
+  .ginput_container {
+    margin-top: 0;
+  }
+
+  .gfield_radio {
+    li {
+      font: {
+        size: $font18;
+      }
+
+      input {
+        max-height: 30px;
+      }
+
+      margin-top: -10px;
+    }
+
+    margin-top: 0;
+  }
+}
+
+#gform_submit_button_2 {
+  height: 60px;
+  padding: 10px 60px 10px 60px;
+  background-color: transparent;
+  color: $white;
+  border: 1px solid $white;
+
+  font: {
+    size: $font18;
+    family: $fontRegular;
+  }
+}
+
+#gform_fields_2 {
+  input {
+    height: 45px;
+    border: 1px solid  $darkGrey;
+  }
+
+  font: {
+    size: $font18;
+    family: $fontRegular;
+  }
+
+  .ginput_container {
+    margin-top: 0;
+  }
+
+  .gfield_radio {
+    li {
+      font: {
+        size: $font18;
+        family: $fontRegular;
+      }
+
+      input {
+        max-height: 30px;
+      }
+
+      margin-top: -10px;
+    }
+
+    margin-top: 0;
+  }
+}
+
+//contactPage
+.ContactContainer {
+  max-width: 900px;
+
+  .formContainer {
+    max-width: 500px;
+  }
+}
+
+#ctaContent {
+  max-width: 600px;
+  margin-top: -100px;
+
+  .contentHeaderText {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+//pricing
+#pricingrid {
+  margin-left: 0 !important;
+}
+
+.uspPricing {
+  position: relative;
+  margin-top: -170px;
+  background: $white;
+  color: $text;
+  box-sizing: border-box;
+  max-width: 530px;
+
+  @include shadow(0 0 20px 5px rgba(0, 0, 0, 0.1));
+
+  ul {
+    li {
+      margin-bottom: 20px;
+      list-style: none;
+
+      font: {
+        family: $fontRegular;
+        size: $font22;
+      }
+
+      h3 {
+        padding-top: 10px;
+      }
+
+      h2 {
+        font: {
+          family: $fontMedium !important;
+          size: $font48 !important;
+        }
+      }
+
+      svg {
+        margin-right: 15px;
+        width: 22px;
+      }
+    }
+  }
+
+  .textPrice {
+    font: {
+      family: $fontRegular;
+      size: $font22;
+    }
+  }
+}
+
+.titlePricingCard {
+  background-color: $gradient1;
+
+  h2 {
+    color: $white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font: {
+      size: $font38;
+      family: $fontRegular;
+    }
+  }
+}
+
+.titlePricingCard2 {
+  background-color: $gradient2;
+
+  h2 {
+    color: $white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font: {
+      size: $font38;
+      family: $fontRegular;
+    }
+  }
+}
+
+#text {
+  position: absolute;
+  color: $white;
+  width: 50%;
+  background: $secondary;
+  top: 0;
+
+  font: {
+    family: $fontLight;
+    size: $font14;
+  }
+
+  p {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+}
+
+.uk-table {
+  #tableData {
+    border-top: unset;
+    border-bottom: 2px solid $black;
+    box-shadow: 0 40px 5px -7px rgba(0, 0, 0, 0.04);
+
+    svg {
+      fill: $secondary;
+    }
+  }
+
+  th {
+    font: {
+      size: $font24;
+      family: $fontBold;
+    }
+
+    text-transform: none;
+    color: $black;
+  }
+
+  .dataNaam {
+    font: {
+      size: $font20;
+      family: $fontLight;
+    }
+
+    min-width: 120px;
+  }
+
+  .dataNaamSoon {
+    font: {
+      size: $font20;
+      family: $fontLight;
+    }
+
+    #soon {
+      position: absolute;
+      margin-left: 120px;
+      margin-top: -35px;
+    }
+
+    img {
+      margin-left: -23px;
+      height: 71px;
+      z-index: 4;
+      margin-top: -19px;
+      margin-bottom: -6px;
+    }
+
+    span {
+      z-index: 7;
+      margin-left: -100px;
+      color: $white;
+      padding-right: 15px;
+
+      font: {
+        size: 12px;
+        family: $fontLight;
+      }
+    }
+
+    padding: 0;
+    min-width: 120px;
+  }
+
+  .data1 {
+    font: {
+      size: $font20;
+      family: $fontLight;
+    }
+
+    min-width: 120px;
+  }
+
+  .data2 {
+    font: {
+      size: $font20;
+      family: $fontLight;
+    }
+
+    min-width: 120px;
+  }
+}
+
+#cdcMobile {
+  display: none;
+}
+
+.previous {
+  fill: $secondary;
+  width: 42px;
+  height: 42px;
+  transform: scale(-1, 1);
+  color: #1c87c9;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+}
+
+.next {
+  fill: $secondary;
+  width: 42px;
+  height: 42px;
+}
+
+@media (max-width: 960px) {
+  #uspPricing2 {
+    margin-top: 0;
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  #headerBox {
+    max-width: none !important;
+  }
+
+  #text {
+    font-size: $font18;
+  }
+
+  #pricingrid {
+    margin-left: -30px !important;
+  }
+
+  #uspPricing2 {
+    margin-top: 0;
+    padding-top: 70px;
+  }
+
+  .uspPricing {
+    ul {
+      padding-left: 0;
+    }
+
+    margin-top: -200px;
+  }
+
+  .content {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .dataNaam {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 14px !important;
+  }
+
+  .data1 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 14px !important;
+  }
+
+  .data2 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 14px !important;
+  }
+
+  .dataNaamSoon {
+    font-size: 14px !important;
+
+    span {
+      font-size: 9px !important;
+      margin-left: -70px !important;
+      padding-right: 12px !important;
+    }
+
+    img {
+      margin-left: -14px !important;
+      margin-top: -16px !important;
+      height: 61px !important;
+      width: 80px;
+    }
+
+    #soon {
+      margin-left: 70px !important;
+      margin-top: -28px !important;
+    }
+  }
+
+  th {
+    font: {
+      size: $font16 !important;
+    }
+  }
+
+  .integratiText {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .uspContact {
+    margin-top: -170px;
+  }
+
+  .uspRegister {
+    margin-top: -170px;
+    padding: 40px 30px 20px 30px;
+  }
+
+  #cdc {
+    display: none;
+  }
+
+  #cdcMobile {
+    display: block;
+  }
+
+  .titlePricingCard {
+    background-color: $gradient1;
+
+    h2 {
+      padding-top: 12px;
+      padding-bottom: 12px;
+
+      font: {
+        size: $font32;
+      }
+    }
+  }
+
+  .titlePricingCard2 {
+    background-color: $gradient2;
+
+    h2 {
+      padding-top: 12px;
+      padding-bottom: 12px;
+
+      font: {
+        size: $font32;
+      }
+    }
+  }
+
+  .integratieList {
+    padding-left: 15px;
+  }
+}

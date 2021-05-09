@@ -1,0 +1,110 @@
+html,
+body {
+  font: {
+    family: $fontRegular;
+    size: calc(12px + 0.2935vw);
+  }
+
+  color: $text;
+}
+
+h1 {
+  font: {
+    family: $fontLight;
+    size: $font50;
+  }
+
+  color: $white;
+}
+
+h2 {
+  font: {
+    family: $fontLight;
+    size: $font45;
+  }
+
+  color: $primary;
+}
+
+h3 {
+  font: {
+    family: $fontRegular;
+    size: $font24;
+  }
+
+  color: $primary;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+strong {
+  font: {
+    family: $fontBold;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+#price {
+  font: {
+    family: $fontRegular;
+    size: $font45;
+  }
+
+  span {
+    font: {
+      family: $fontRegular;
+      size: $font60;
+    }
+  }
+
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.loadmore {
+  font: {
+    family: $fontMedium;
+    size: $font20;
+  }
+
+  color: $white;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+.cta-text {
+  font: {
+    family: $fontLight;
+    size: $font38;
+  }
+
+  color: $white;
+  min-width: 100%;
+  padding-bottom: 20px;
+}
+
+.rgs-text {
+  font: {
+    family: $fontLight;
+    size: $font40;
+  }
+
+  color: $black;
+}
+
+#gform_confirmation_message_2 {
+  font: {
+    size: $font32;
+    family: $fontRegular;
+  }
+
+  color: $secondary;
+  margin-top: 20px;
+}

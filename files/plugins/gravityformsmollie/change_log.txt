@@ -1,0 +1,9 @@
+### 1.1 | 2020-09-16
+- Added support for Gravity Forms 2.5.
+- Added accessibility enhancements that announcing the credit card validation error in Mollie Components for screen readers.
+- Added accessibility enhancements that announcing the supported credit cards.
+- Fixed an issue that PHP notices were thrown if the Mollie feed didn't have billing fields mapped.
+
+
+### 1.0 | 2020-05-06
+- It's all new!

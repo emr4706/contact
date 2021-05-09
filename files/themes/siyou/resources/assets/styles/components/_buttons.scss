@@ -1,0 +1,72 @@
+.btn-cta {
+  font: {
+    family: $fontMedium;
+    size: $font20;
+  }
+
+  color: $white;
+  background: $secondary;
+  padding: 10px 20px;
+
+  &:hover {
+    color: $white;
+  }
+}
+
+.btn-someone {
+  font: {
+    family: $fontMedium;
+    size: $font20;
+  }
+
+  color: $white;
+  background: $gradient2;
+  padding: 10px 20px;
+
+  &:hover {
+    color: $gradient2;
+  }
+}
+
+.btn-business {
+  font: {
+    family: $fontMedium;
+    size: $font20;
+  }
+
+  color: $white;
+  background: $gradient1;
+  padding: 10px 20px;
+
+  &:hover {
+    color: $gradient1;
+  }
+}
+
+.btn-belons {
+  font: {
+    family: $fontMedium;
+    size: $font32;
+  }
+
+  color: $white;
+  background: transparent;
+  padding: 10px 20px;
+  border: 1px solid $white;
+  text-transform: none;
+
+  &:hover {
+    color: $white;
+    background-color: $secondary;
+  }
+}
+
+@media (max-width: 640px) {
+  .btn-cta {
+    width: 100%;
+  }
+
+  .btn-belons {
+    width: 100%;
+  }
+}

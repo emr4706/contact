@@ -1,0 +1,218 @@
+$font-path: "../fonts/" !default;
+
+// Weights
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+
+$fontIcon: "icons";
+$fontLight: "Poppins-Light";
+$fontRegular: "Poppins-Regular";
+$fontMedium: "Poppins-Medium";
+$fontSemiBold: "Poppins-SemiBold";
+$fontBold: "Poppins-Bold";
+$fontBlack: "Poppins-Black";
+$fontItalic: "Poppins-Italic";
+
+@font-face {
+  font: {
+    family: $fontLight;
+    weight: $light-weight;
+    style: normal;
+  }
+
+  src: url("#{$font-path}/#{$fontLight}.eot");
+  src:
+    url("#{$font-path}/#{$fontLight}.eot") format("embedded-opentype"),
+    url("#{$font-path}/#{$fontLight}.woff2") format("woff2"),
+    url("#{$font-path}/#{$fontLight}.woff") format("woff"),
+    url("#{$font-path}/#{$fontLight}.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font: {
+    family: $fontRegular;
+    weight: $normal-weight;
+    style: normal;
+  }
+
+  src: url("#{$font-path}/#{$fontRegular}.eot");
+  src:
+    url("#{$font-path}/#{$fontRegular}.eot") format("embedded-opentype"),
+    url("#{$font-path}/#{$fontRegular}.woff2") format("woff2"),
+    url("#{$font-path}/#{$fontRegular}.woff") format("woff"),
+    url("#{$font-path}/#{$fontRegular}.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font: {
+    family: $fontMedium;
+    weight: $medium-weight;
+    style: normal;
+  }
+
+  src: url("#{$font-path}/#{$fontMedium}.eot");
+  src:
+    url("#{$font-path}/#{$fontMedium}.eot") format("embedded-opentype"),
+    url("#{$font-path}/#{$fontMedium}.woff2") format("woff2"),
+    url("#{$font-path}/#{$fontMedium}.woff") format("woff"),
+    url("#{$font-path}/#{$fontMedium}.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font: {
+    family: $fontSemiBold;
+    weight: $semibold-weight;
+    style: normal;
+  }
+
+  src: url("#{$font-path}/#{$fontSemiBold}.eot");
+  src:
+    url("#{$font-path}/#{$fontSemiBold}.eot") format("embedded-opentype"),
+    url("#{$font-path}/#{$fontSemiBold}.woff2") format("woff2"),
+    url("#{$font-path}/#{$fontSemiBold}.woff") format("woff"),
+    url("#{$font-path}/#{$fontSemiBold}.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font: {
+    family: $fontBold;
+    weight: $bold-weight;
+    style: normal;
+  }
+
+  src: url("#{$font-path}/#{$fontBold}.eot");
+  src:
+    url("#{$font-path}/#{$fontBold}.eot") format("embedded-opentype"),
+    url("#{$font-path}/#{$fontBold}.woff2") format("woff2"),
+    url("#{$font-path}/#{$fontBold}.woff") format("woff"),
+    url("#{$font-path}/#{$fontBold}.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font: {
+    family: $fontSemiBold;
+    weight: $semibold-weight;
+    style: normal;
+  }
+
+  src: url("#{$font-path}/#{$fontSemiBold}.eot");
+  src:
+    url("#{$font-path}/#{$fontSemiBold}.eot") format("embedded-opentype"),
+    url("#{$font-path}/#{$fontSemiBold}.woff2") format("woff2"),
+    url("#{$font-path}/#{$fontSemiBold}.woff") format("woff"),
+    url("#{$font-path}/#{$fontSemiBold}.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font: {
+    family: $fontItalic;
+    weight: $normal-weight;
+    style: normal;
+  }
+
+  src: url("#{$font-path}/#{$fontItalic}.eot");
+  src:
+    url("#{$font-path}/#{$fontItalic}.eot") format("embedded-opentype"),
+    url("#{$font-path}/#{$fontItalic}.woff2") format("woff2"),
+    url("#{$font-path}/#{$fontItalic}.woff") format("woff"),
+    url("#{$font-path}/#{$fontItalic}.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font: {
+    family: $fontIcon;
+    weight: $normal-weight;
+    style: normal;
+  }
+
+  src: url("#{$font-path}/#{$fontIcon}.eot");
+  src:
+    url("#{$font-path}/#{$fontIcon}.eot") format("embedded-opentype"),
+    url("#{$font-path}/#{$fontIcon}.woff2") format("woff2"),
+    url("#{$font-path}/#{$fontIcon}.woff") format("woff"),
+    url("#{$font-path}/#{$fontIcon}.ttf") format("truetype");
+  font-display: swap;
+}
+
+.icon::before,
+.icon::after {
+  font: {
+    family: $fontIcon;
+    weight: normal;
+    style: normal;
+  }
+
+  speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-align::before,
+.icon-align::after {
+  vertical-align: sub;
+}
+
+@function unicode($str) {
+  @return unquote("\"\\#{$str}\"");
+}
+
+$icon-arrow-down: unicode(ea02);
+$icon-bullet-left: unicode(ea03);
+$icon-bullet-right: unicode(ea04);
+$icon-register: unicode(ea05);
+$icon-usp: unicode(ea06);
+$icon-arrow-left: unicode(ea07);
+$icon-arrow-right: unicode(ea08);
+$icon-arrow-up: unicode(ea09);
+$icon-phone: unicode(ea0a);
+
+.icon-arrow-down::before {
+  content: $icon-arrow-down;
+}
+
+.icon-bullet-left::before {
+  content: $icon-bullet-left;
+}
+
+.icon-bullet-right::before {
+  content: $icon-bullet-right;
+}
+
+.icon-register::before {
+  content: $icon-register;
+}
+
+.icon-usp::before {
+  content: $icon-usp;
+}
+
+.icon-arrow-left::before {
+  content: $icon-arrow-left;
+}
+
+.icon-arrow-right::before {
+  content: $icon-arrow-right;
+}
+
+.icon-arrow-up::before {
+  content: $icon-arrow-up;
+}
+
+.icon-phone::before {
+  content: $icon-phone;
+}

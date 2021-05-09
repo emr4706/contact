@@ -1,0 +1,1933 @@
+@font-face {
+  font-family: "Poppins-Light";
+  font-weight: 300;
+  font-style: normal;
+  src: url(/files/themes/siyou/dist/fonts/Poppins-Light.eot);
+  src: url(/files/themes/siyou/dist/fonts/Poppins-Light.eot) format("embedded-opentype"), url(/files/themes/siyou/dist/fonts/Poppins-Light.woff2) format("woff2"), url(/files/themes/siyou/dist/fonts/Poppins-Light.woff) format("woff"), url(/files/themes/siyou/dist/fonts/Poppins-Light.ttf) format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/files/themes/siyou/dist/fonts/Poppins-Regular.eot);
+  src: url(/files/themes/siyou/dist/fonts/Poppins-Regular.eot) format("embedded-opentype"), url(/files/themes/siyou/dist/fonts/Poppins-Regular.woff2) format("woff2"), url(/files/themes/siyou/dist/fonts/Poppins-Regular.woff) format("woff"), url(/files/themes/siyou/dist/fonts/Poppins-Regular.ttf) format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url(/files/themes/siyou/dist/fonts/Poppins-Medium.eot);
+  src: url(/files/themes/siyou/dist/fonts/Poppins-Medium.eot) format("embedded-opentype"), url(/files/themes/siyou/dist/fonts/Poppins-Medium.woff2) format("woff2"), url(/files/themes/siyou/dist/fonts/Poppins-Medium.woff) format("woff"), url(/files/themes/siyou/dist/fonts/Poppins-Medium.ttf) format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  font-weight: 600;
+  font-style: normal;
+  src: url(/files/themes/siyou/dist/fonts/Poppins-SemiBold.eot);
+  src: url(/files/themes/siyou/dist/fonts/Poppins-SemiBold.eot) format("embedded-opentype"), url(/files/themes/siyou/dist/fonts/Poppins-SemiBold.woff2) format("woff2"), url(/files/themes/siyou/dist/fonts/Poppins-SemiBold.woff) format("woff"), url(/files/themes/siyou/dist/fonts/Poppins-SemiBold.ttf) format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url(/files/themes/siyou/dist/fonts/Poppins-Bold.eot);
+  src: url(/files/themes/siyou/dist/fonts/Poppins-Bold.eot) format("embedded-opentype"), url(/files/themes/siyou/dist/fonts/Poppins-Bold.woff2) format("woff2"), url(/files/themes/siyou/dist/fonts/Poppins-Bold.woff) format("woff"), url(/files/themes/siyou/dist/fonts/Poppins-Bold.ttf) format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  font-weight: 600;
+  font-style: normal;
+  src: url(/files/themes/siyou/dist/fonts/Poppins-SemiBold.eot);
+  src: url(/files/themes/siyou/dist/fonts/Poppins-SemiBold.eot) format("embedded-opentype"), url(/files/themes/siyou/dist/fonts/Poppins-SemiBold.woff2) format("woff2"), url(/files/themes/siyou/dist/fonts/Poppins-SemiBold.woff) format("woff"), url(/files/themes/siyou/dist/fonts/Poppins-SemiBold.ttf) format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins-Italic";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/files/themes/siyou/dist/fonts/Poppins-Italic.eot);
+  src: url(/files/themes/siyou/dist/fonts/Poppins-Italic.eot) format("embedded-opentype"), url(/files/themes/siyou/dist/fonts/Poppins-Italic.woff2) format("woff2"), url(/files/themes/siyou/dist/fonts/Poppins-Italic.woff) format("woff"), url(/files/themes/siyou/dist/fonts/Poppins-Italic.ttf) format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "icons";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/files/themes/siyou/dist/fonts/icons.eot);
+  src: url(/files/themes/siyou/dist/fonts/icons.eot) format("embedded-opentype"), url(/files/themes/siyou/dist/fonts/icons.woff2) format("woff2"), url(/files/themes/siyou/dist/fonts/icons.woff) format("woff"), url(/files/themes/siyou/dist/fonts/icons.ttf) format("truetype");
+  font-display: swap;
+}
+
+/* line 151, resources/assets/styles/custom/_fonts.scss */
+
+.icon::before,
+.icon::after {
+  font-family: "icons";
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 165, resources/assets/styles/custom/_fonts.scss */
+
+.icon-align::before,
+.icon-align::after {
+  vertical-align: sub;
+}
+
+/* line 184, resources/assets/styles/custom/_fonts.scss */
+
+.icon-arrow-down::before {
+  content: "\EA02";
+}
+
+/* line 188, resources/assets/styles/custom/_fonts.scss */
+
+.icon-bullet-left::before {
+  content: "\EA03";
+}
+
+/* line 192, resources/assets/styles/custom/_fonts.scss */
+
+.icon-bullet-right::before {
+  content: "\EA04";
+}
+
+/* line 196, resources/assets/styles/custom/_fonts.scss */
+
+.icon-register::before {
+  content: "\EA05";
+}
+
+/* line 200, resources/assets/styles/custom/_fonts.scss */
+
+.icon-usp::before {
+  content: "\EA06";
+}
+
+/* line 204, resources/assets/styles/custom/_fonts.scss */
+
+.icon-arrow-left::before {
+  content: "\EA07";
+}
+
+/* line 208, resources/assets/styles/custom/_fonts.scss */
+
+.icon-arrow-right::before {
+  content: "\EA08";
+}
+
+/* line 212, resources/assets/styles/custom/_fonts.scss */
+
+.icon-arrow-up::before {
+  content: "\EA09";
+}
+
+/* line 216, resources/assets/styles/custom/_fonts.scss */
+
+.icon-phone::before {
+  content: "\EA0A";
+}
+
+/* line 37, resources/assets/styles/common/_global.scss */
+
+.icon-10::before,
+.icon-10::after {
+  font-size: 10px !important;
+}
+
+/* line 37, resources/assets/styles/common/_global.scss */
+
+.icon-11::before,
+.icon-11::after {
+  font-size: 11px !important;
+}
+
+/* line 37, resources/assets/styles/common/_global.scss */
+
+.icon-16::before,
+.icon-16::after {
+  font-size: 16px !important;
+}
+
+/* line 37, resources/assets/styles/common/_global.scss */
+
+.icon-17::before,
+.icon-17::after {
+  font-size: 17px !important;
+}
+
+/* line 37, resources/assets/styles/common/_global.scss */
+
+.icon-18::before,
+.icon-18::after {
+  font-size: 18px !important;
+}
+
+/* line 37, resources/assets/styles/common/_global.scss */
+
+.icon-20::before,
+.icon-20::after {
+  font-size: 20px !important;
+}
+
+/* line 37, resources/assets/styles/common/_global.scss */
+
+.icon-24::before,
+.icon-24::after {
+  font-size: 24px !important;
+}
+
+/* line 37, resources/assets/styles/common/_global.scss */
+
+.icon-30::before,
+.icon-30::after {
+  font-size: 30px !important;
+}
+
+/* line 37, resources/assets/styles/common/_global.scss */
+
+.icon-40::before,
+.icon-40::after {
+  font-size: 40px !important;
+}
+
+/* line 37, resources/assets/styles/common/_global.scss */
+
+.icon-50::before,
+.icon-50::after {
+  font-size: 50px !important;
+}
+
+/* line 37, resources/assets/styles/common/_global.scss */
+
+.icon-60::before,
+.icon-60::after {
+  font-size: 60px !important;
+}
+
+/* line 37, resources/assets/styles/common/_global.scss */
+
+.icon-70::before,
+.icon-70::after {
+  font-size: 70px !important;
+}
+
+/* line 1, resources/assets/styles/layouts/_layout.scss */
+
+.aanmelden {
+  width: 90px;
+  height: 90px;
+  top: 150px;
+  right: 0;
+  border-radius: 10px 0 0 10px;
+  background: #fff;
+  z-index: 9999;
+  -webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* line 12, resources/assets/styles/layouts/_layout.scss */
+
+.aanmelden a {
+  font-family: "Poppins-Regular";
+  font-size: 0.75rem;
+  color: #c70039;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 23, resources/assets/styles/layouts/_layout.scss */
+
+.aanmelden a:hover {
+  text-decoration: none;
+}
+
+/* line 28, resources/assets/styles/layouts/_layout.scss */
+
+.aanmelden div {
+  padding-left: 15px;
+}
+
+/* line 31, resources/assets/styles/layouts/_layout.scss */
+
+.aanmelden div i {
+  padding-left: 10px;
+}
+
+/* line 37, resources/assets/styles/layouts/_layout.scss */
+
+.uspHome {
+  position: relative;
+  margin-top: -110px;
+  background: #fff;
+  padding: 50px 40px 20px 40px;
+  color: #3c3c3b;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* line 48, resources/assets/styles/layouts/_layout.scss */
+
+.uspHome ul li {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+/* line 52, resources/assets/styles/layouts/_layout.scss */
+
+.uspHome ul li .i {
+  margin-bottom: 0;
+}
+
+/* line 53, resources/assets/styles/layouts/_layout.scss */
+
+.uspHome ul li .i i {
+  color: #c70039;
+}
+
+/* line 60, resources/assets/styles/layouts/_layout.scss */
+
+.uspHome ul li .text123 {
+  margin-left: 10px;
+}
+
+/* line 64, resources/assets/styles/layouts/_layout.scss */
+
+.uspHome ul li p {
+  font-family: "Poppins-Light";
+  font-size: 1rem;
+}
+
+/* line 78, resources/assets/styles/layouts/_layout.scss */
+
+.contentHomeLijst {
+  margin-left: 60px;
+}
+
+/* line 82, resources/assets/styles/layouts/_layout.scss */
+
+.slideIcon {
+  fill: #c70039;
+}
+
+/* line 87, resources/assets/styles/layouts/_layout.scss */
+
+.functionality .image {
+  border-bottom: 2px solid #050a18;
+  -webkit-box-shadow: 0 10px 40px -25px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 10px 40px -25px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 10px 40px -25px rgba(0, 0, 0, 0.75);
+}
+
+/* line 94, resources/assets/styles/layouts/_layout.scss */
+
+.rounded {
+  border-radius: 45px 45px 0 0;
+  padding-top: 50px;
+}
+
+/* line 99, resources/assets/styles/layouts/_layout.scss */
+
+.uk-hidden {
+  display: flex !important;
+}
+
+/* line 103, resources/assets/styles/layouts/_layout.scss */
+
+.integrations {
+  position: relative;
+  padding: 0;
+  color: #fff;
+  z-index: 1;
+}
+
+/* line 110, resources/assets/styles/layouts/_layout.scss */
+
+.integrations .content {
+  position: relative;
+  padding: 40px 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 2;
+}
+
+/* line 118, resources/assets/styles/layouts/_layout.scss */
+
+.integrations .content .imgwrapper {
+  background: #fff;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 10px 40px -25px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 10px 40px -25px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 10px 40px -25px rgba(0, 0, 0, 0.75);
+}
+
+/* line 125, resources/assets/styles/layouts/_layout.scss */
+
+.integrations .content h2 {
+  color: #fff;
+}
+
+/* line 129, resources/assets/styles/layouts/_layout.scss */
+
+.integrations .content h3 {
+  color: #fff;
+}
+
+/* line 134, resources/assets/styles/layouts/_layout.scss */
+
+.integrations .background-top {
+  background-repeat: no-repeat;
+  background-position: center top;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* line 144, resources/assets/styles/layouts/_layout.scss */
+
+.integrations .background-bottom {
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* line 155, resources/assets/styles/layouts/_layout.scss */
+
+.logos {
+  position: relative;
+  margin-top: -60px;
+  background: #fff;
+  padding: 40px 60px;
+  z-index: 2;
+}
+
+/* line 163, resources/assets/styles/layouts/_layout.scss */
+
+.logos i {
+  color: #c70039;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 170, resources/assets/styles/layouts/_layout.scss */
+
+.logos .uk-dotnav a {
+  border: none;
+  background: rgba(199, 0, 57, 0.5);
+}
+
+/* line 176, resources/assets/styles/layouts/_layout.scss */
+
+.logos .uk-dotnav .uk-active a {
+  background: #c70039;
+}
+
+/* line 183, resources/assets/styles/layouts/_layout.scss */
+
+.testimonials {
+  position: relative;
+  padding: 0;
+  background: #f6f6f6;
+  z-index: 3;
+}
+
+/* line 190, resources/assets/styles/layouts/_layout.scss */
+
+.testimonials .content {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  max-width: 70%;
+  z-index: 2;
+}
+
+/* line 198, resources/assets/styles/layouts/_layout.scss */
+
+.testimonials .content .comment {
+  border-radius: 30px 30px 30px 0;
+  background: #1677f1;
+  padding: 20px;
+  bottom: 85px;
+  left: 38px;
+  width: calc(100% - 100px);
+  -webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* line 209, resources/assets/styles/layouts/_layout.scss */
+
+.testimonials .content .comment p {
+  font-family: "Poppins-Italic";
+  color: #fff;
+}
+
+/* line 216, resources/assets/styles/layouts/_layout.scss */
+
+.testimonials .content .comment p.author {
+  font-family: "Poppins-Medium";
+  font-size: 1.25rem;
+}
+
+/* line 225, resources/assets/styles/layouts/_layout.scss */
+
+.testimonials .content .comment .uk-dotnav a {
+  border: none;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* line 231, resources/assets/styles/layouts/_layout.scss */
+
+.testimonials .content .comment .uk-dotnav .uk-active a {
+  background: #fff;
+}
+
+/* line 239, resources/assets/styles/layouts/_layout.scss */
+
+.testimonials .background-top {
+  background-repeat: no-repeat;
+  background-position: center top;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* line 249, resources/assets/styles/layouts/_layout.scss */
+
+.testimonials .background-bottom {
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* line 260, resources/assets/styles/layouts/_layout.scss */
+
+.register {
+  position: relative;
+  margin-top: -60px;
+  padding: 40px 0;
+  color: #fff;
+  z-index: 4;
+}
+
+/* line 268, resources/assets/styles/layouts/_layout.scss */
+
+.register h2,
+.register h3 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+@media (max-width: 480px) {
+  /* line 277, resources/assets/styles/layouts/_layout.scss */
+
+  .testimonials .content {
+    max-width: 100%;
+    padding-bottom: 80px;
+  }
+
+  /* line 280, resources/assets/styles/layouts/_layout.scss */
+
+  .testimonials .content .comment {
+    width: unset;
+  }
+
+  /* line 288, resources/assets/styles/layouts/_layout.scss */
+
+  .uspHome {
+    margin-top: -110px;
+  }
+
+  /* line 289, resources/assets/styles/layouts/_layout.scss */
+
+  .uspHome ul {
+    padding-left: 0;
+  }
+
+  /* line 291, resources/assets/styles/layouts/_layout.scss */
+
+  .uspHome ul li p {
+    padding-right: 0;
+  }
+
+  /* line 302, resources/assets/styles/layouts/_layout.scss */
+
+  .bandMobile {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* line 306, resources/assets/styles/layouts/_layout.scss */
+
+  .bandMobile .ulContact {
+    padding-left: 0;
+  }
+
+  /* line 311, resources/assets/styles/layouts/_layout.scss */
+
+  .uk-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* line 317, resources/assets/styles/layouts/_layout.scss */
+
+#textForm {
+  font-size: 2rem;
+}
+
+/* line 1, resources/assets/styles/layouts/_typography.scss */
+
+html,
+body {
+  font-family: "Poppins-Regular";
+  font-size: calc(12px + 0.2935vw);
+  color: #3c3c3b;
+}
+
+/* line 11, resources/assets/styles/layouts/_typography.scss */
+
+h1 {
+  font-family: "Poppins-Light";
+  font-size: 3.125rem;
+  color: #fff;
+}
+
+/* line 20, resources/assets/styles/layouts/_typography.scss */
+
+h2 {
+  font-family: "Poppins-Light";
+  font-size: 2.8125rem;
+  color: #0a1430;
+}
+
+/* line 29, resources/assets/styles/layouts/_typography.scss */
+
+h3 {
+  font-family: "Poppins-Regular";
+  font-size: 1.5rem;
+  color: #0a1430;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* line 40, resources/assets/styles/layouts/_typography.scss */
+
+strong {
+  font-family: "Poppins-Bold";
+}
+
+/* line 46, resources/assets/styles/layouts/_typography.scss */
+
+p {
+  margin: 0;
+}
+
+/* line 50, resources/assets/styles/layouts/_typography.scss */
+
+#price {
+  font-family: "Poppins-Regular";
+  font-size: 2.8125rem;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+/* line 56, resources/assets/styles/layouts/_typography.scss */
+
+#price span {
+  font-family: "Poppins-Regular";
+  font-size: 3.75rem;
+}
+
+/* line 67, resources/assets/styles/layouts/_typography.scss */
+
+.loadmore {
+  font-family: "Poppins-Medium";
+  font-size: 1.25rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* line 76, resources/assets/styles/layouts/_typography.scss */
+
+.loadmore:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 82, resources/assets/styles/layouts/_typography.scss */
+
+.cta-text {
+  font-family: "Poppins-Light";
+  font-size: 2.375rem;
+  color: #fff;
+  min-width: 100%;
+  padding-bottom: 20px;
+}
+
+/* line 93, resources/assets/styles/layouts/_typography.scss */
+
+.rgs-text {
+  font-family: "Poppins-Light";
+  font-size: 2.5rem;
+  color: #000;
+}
+
+/* line 102, resources/assets/styles/layouts/_typography.scss */
+
+#gform_confirmation_message_2 {
+  font-size: 2rem;
+  font-family: "Poppins-Regular";
+  color: #c70039;
+  margin-top: 20px;
+}
+
+/* line 1, resources/assets/styles/layouts/_navigation.scss */
+
+.uk-navbar {
+  padding-top: 20px;
+  height: 120px;
+  z-index: 3;
+}
+
+/* line 8, resources/assets/styles/layouts/_navigation.scss */
+
+.uk-navbar .uk-navbar-nav li {
+  margin-left: 25px;
+}
+
+/* line 9, resources/assets/styles/layouts/_navigation.scss */
+
+.uk-navbar .uk-navbar-nav li a {
+  font-family: "Poppins-Medium";
+  font-size: 1.125rem;
+  color: #fff;
+  min-height: unset;
+  padding: 0;
+  margin-top: 10px;
+}
+
+/* line 21, resources/assets/styles/layouts/_navigation.scss */
+
+.uk-navbar .uk-navbar-nav li a:hover {
+  border-bottom: 3px #fff solid;
+  padding-bottom: 0;
+}
+
+/* line 28, resources/assets/styles/layouts/_navigation.scss */
+
+.uk-navbar .uk-navbar-nav li.current-menu-item a {
+  font-family: "Poppins-Bold";
+}
+
+/* line 42, resources/assets/styles/layouts/_navigation.scss */
+
+.uk-logo {
+  margin-top: -10px;
+}
+
+/* line 48, resources/assets/styles/layouts/_navigation.scss */
+
+#menu-item-44 a {
+  border: 1px solid #fff;
+  padding: 10px 20px 10px 20px;
+  margin-top: 0;
+}
+
+/* line 53, resources/assets/styles/layouts/_navigation.scss */
+
+#menu-item-44 a:hover {
+  color: #0d0872;
+  background: #fff;
+}
+
+/* line 58, resources/assets/styles/layouts/_navigation.scss */
+
+#menu-item-44 a::after {
+  font-family: "icons";
+  font-size: 0.75rem;
+  content: "\EA08";
+  margin-left: 5px;
+}
+
+/* line 70, resources/assets/styles/layouts/_navigation.scss */
+
+#menu-item-44.current-menu-item a {
+  background-color: #fff;
+  color: #0d0872;
+}
+
+/* line 74, resources/assets/styles/layouts/_navigation.scss */
+
+#menu-item-44.current-menu-item a::after {
+  font-family: "icons";
+  content: "\EA08";
+  margin-left: 5px;
+}
+
+/* line 86, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu {
+  display: none;
+}
+
+/* line 89, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-navbar-toggle {
+  min-height: 60px;
+  padding-right: 0;
+  padding-top: 30px;
+  font-family: "Poppins-Regular";
+  font-size: 1rem;
+  color: #000;
+}
+
+/* line 101, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-navbar-toggle:hover {
+  color: #fff;
+}
+
+/* line 106, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas {
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 110, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar {
+  padding: 0;
+  width: 100%;
+  background: #0d0872;
+}
+
+/* line 115, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar .uk-logo {
+  padding-top: 30px;
+}
+
+/* line 119, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar header {
+  height: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 125, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar button {
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* line 132, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar button:hover {
+  color: #fff;
+}
+
+/* line 137, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar .close {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* line 142, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar .close span {
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  color: #000;
+  margin-right: 45px !important;
+}
+
+/* line 152, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar .close .uk-offcanvas-close {
+  position: relative;
+  stroke-width: 2px !important;
+  padding-bottom: 10px;
+}
+
+/* line 159, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar hr {
+  border-top: 1px solid #fff;
+}
+
+/* line 163, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar .belons {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+/* line 170, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar .menu-items .uk-inline {
+  width: 100%;
+}
+
+/* line 174, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar .menu-items .uk-inline .search:focus {
+  color: #0a1430;
+}
+
+/* line 180, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar .menu-items .uk-nav {
+  padding-bottom: 20px;
+}
+
+/* line 181, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar .menu-items .uk-nav li {
+  padding-top: 15px;
+}
+
+/* line 182, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar .menu-items .uk-nav li a {
+  font-size: 2.5rem;
+  font-family: "Poppins-Regular";
+  color: #fff;
+  padding-left: 20%;
+}
+
+/* line 191, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar .menu-items .uk-nav li a::before {
+  font-family: "icons";
+  font-size: 1.875rem;
+  content: "\EA08";
+  margin-right: 5px;
+}
+
+/* line 203, resources/assets/styles/layouts/_navigation.scss */
+
+.mobile-menu .uk-offcanvas .uk-offcanvas-bar .menu-items .uk-nav li.current-menu-item a {
+  background-color: #c70039;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  /* line 221, resources/assets/styles/layouts/_navigation.scss */
+
+  .uk-navbar-nav {
+    display: none;
+  }
+
+  /* line 225, resources/assets/styles/layouts/_navigation.scss */
+
+  .uk-navbar {
+    padding-top: 0;
+  }
+
+  /* line 229, resources/assets/styles/layouts/_navigation.scss */
+
+  .mobile-menu {
+    display: block;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  /* line 235, resources/assets/styles/layouts/_navigation.scss */
+
+  .uk-logo {
+    padding: 0;
+    width: 250px;
+    height: 80px;
+  }
+
+  /* line 241, resources/assets/styles/layouts/_navigation.scss */
+
+  .uk-logo img {
+    padding-top: 15px;
+  }
+
+  /* line 246, resources/assets/styles/layouts/_navigation.scss */
+
+  .aanmelden {
+    display: none;
+  }
+
+  /* line 251, resources/assets/styles/layouts/_navigation.scss */
+
+  .menu-items div {
+    width: 100%;
+  }
+}
+
+/* line 2, resources/assets/styles/layouts/_header.scss */
+
+header .header-background {
+  width: 100%;
+  height: 100%;
+  margin-top: -100px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  opacity: 0.2;
+  min-height: 680px;
+  z-index: 0;
+}
+
+/* line 14, resources/assets/styles/layouts/_header.scss */
+
+header .cta {
+  color: #fff;
+  z-index: 2;
+}
+
+/* line 17, resources/assets/styles/layouts/_header.scss */
+
+header .cta p {
+  font-size: 1rem;
+  font-font: "Poppins-Light";
+}
+
+/* line 24, resources/assets/styles/layouts/_header.scss */
+
+header .cta .uk-grid-collapse {
+  min-height: 680px;
+}
+
+/* line 28, resources/assets/styles/layouts/_header.scss */
+
+header .cta img {
+  margin-top: -60px;
+  margin-left: -30px;
+}
+
+/* line 37, resources/assets/styles/layouts/_header.scss */
+
+.gradient {
+  min-height: 680px;
+  background: radial-gradient(circle, #2a52be 0%, #0d0872 40%);
+}
+
+/* line 42, resources/assets/styles/layouts/_header.scss */
+
+#gredient2 {
+  min-height: 600px;
+}
+
+/* line 46, resources/assets/styles/layouts/_header.scss */
+
+#ctaContent {
+  min-height: 600px;
+}
+
+/* line 50, resources/assets/styles/layouts/_header.scss */
+
+.gradientNavbar {
+  background: #0d0872;
+}
+
+@media (max-width: 640px) {
+  /* line 55, resources/assets/styles/layouts/_header.scss */
+
+  .uk-position-top {
+    position: relative !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 62, resources/assets/styles/layouts/_header.scss */
+
+  header .cta {
+    margin-bottom: 60px;
+  }
+
+  /* line 63, resources/assets/styles/layouts/_header.scss */
+
+  header .cta img {
+    margin-top: -60px;
+    margin-left: -30px;
+  }
+
+  /* line 70, resources/assets/styles/layouts/_header.scss */
+
+  header .cta .headerText {
+    margin-top: -20px;
+  }
+
+  /* line 74, resources/assets/styles/layouts/_header.scss */
+
+  header .cta .uk-grid-collapse {
+    min-height: 760px;
+  }
+
+  /* line 79, resources/assets/styles/layouts/_header.scss */
+
+  header .gradient {
+    min-height: 720px;
+  }
+
+  /* line 83, resources/assets/styles/layouts/_header.scss */
+
+  header .header-background {
+    min-height: 720px;
+  }
+}
+
+/* line 1, resources/assets/styles/layouts/_pages.scss */
+
+.uspContact {
+  position: relative;
+  margin-top: -120px;
+  background: #fff;
+  padding: 40px 60px 20px 60px;
+  color: #3c3c3b;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* line 12, resources/assets/styles/layouts/_pages.scss */
+
+.uspContact ul li {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+/* line 16, resources/assets/styles/layouts/_pages.scss */
+
+.uspContact ul li h3 {
+  padding-top: 10px;
+}
+
+/* line 20, resources/assets/styles/layouts/_pages.scss */
+
+.uspContact ul li svg {
+  fill: #c70039;
+}
+
+/* line 24, resources/assets/styles/layouts/_pages.scss */
+
+.uspContact ul li a {
+  text-decoration: none;
+  color: unset;
+}
+
+/* line 32, resources/assets/styles/layouts/_pages.scss */
+
+#registerHight {
+  min-height: unset;
+}
+
+/* line 36, resources/assets/styles/layouts/_pages.scss */
+
+.integratiText {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "Poppins-Light";
+}
+
+/* line 45, resources/assets/styles/layouts/_pages.scss */
+
+.integratieList {
+  padding-left: 30px;
+}
+
+/* line 49, resources/assets/styles/layouts/_pages.scss */
+
+.uspRegister {
+  position: relative;
+  margin-top: -120px;
+  background: #fff;
+  padding: 40px 60px 20px 60px;
+  color: #3c3c3b;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* line 57, resources/assets/styles/layouts/_pages.scss */
+
+.uspRegister h1 {
+  color: #000;
+}
+
+/* line 63, resources/assets/styles/layouts/_pages.scss */
+
+.uspRegister #form {
+  max-width: 600px !important;
+}
+
+/* line 64, resources/assets/styles/layouts/_pages.scss */
+
+.uspRegister #form #gform_submit_button_2 {
+  height: 60px;
+  padding: 10px 60px 10px 60px;
+  background-color: #c70039 !important;
+  color: #fff;
+  border: none;
+  font-size: 1.125rem;
+  font-family: "Poppins-Regular";
+}
+
+/* line 81, resources/assets/styles/layouts/_pages.scss */
+
+#registertext {
+  color: #fff !important;
+}
+
+/* line 86, resources/assets/styles/layouts/_pages.scss */
+
+#datalist li:nth-child(n+9) {
+  display: none;
+}
+
+/* line 90, resources/assets/styles/layouts/_pages.scss */
+
+.datalist {
+  padding-left: 0;
+}
+
+/* line 94, resources/assets/styles/layouts/_pages.scss */
+
+#span {
+  cursor: pointer;
+}
+
+/* line 100, resources/assets/styles/layouts/_pages.scss */
+
+#gform_submit_button_1 {
+  height: 60px;
+  padding: 10px 60px 10px 60px;
+  background-color: #c70039;
+  color: #fff;
+  border: none;
+  font-font-size: 1.125rem;
+  font-font-family: "Poppins-Regular";
+}
+
+/* line 115, resources/assets/styles/layouts/_pages.scss */
+
+#gform_fields_1 {
+  font-size: 1.125rem;
+  font-family: "Poppins-Regular";
+}
+
+/* line 116, resources/assets/styles/layouts/_pages.scss */
+
+#gform_fields_1 input {
+  height: 45px;
+  border: 1px solid #808080;
+}
+
+/* line 126, resources/assets/styles/layouts/_pages.scss */
+
+#gform_fields_1 .ginput_container {
+  margin-top: 0;
+}
+
+/* line 130, resources/assets/styles/layouts/_pages.scss */
+
+#gform_fields_1 .gfield_radio {
+  margin-top: 0;
+}
+
+/* line 131, resources/assets/styles/layouts/_pages.scss */
+
+#gform_fields_1 .gfield_radio li {
+  font-size: 1.125rem;
+  margin-top: -10px;
+}
+
+/* line 136, resources/assets/styles/layouts/_pages.scss */
+
+#gform_fields_1 .gfield_radio li input {
+  max-height: 30px;
+}
+
+/* line 147, resources/assets/styles/layouts/_pages.scss */
+
+#gform_submit_button_2 {
+  height: 60px;
+  padding: 10px 60px 10px 60px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 1.125rem;
+  font-family: "Poppins-Regular";
+}
+
+/* line 160, resources/assets/styles/layouts/_pages.scss */
+
+#gform_fields_2 {
+  font-size: 1.125rem;
+  font-family: "Poppins-Regular";
+}
+
+/* line 161, resources/assets/styles/layouts/_pages.scss */
+
+#gform_fields_2 input {
+  height: 45px;
+  border: 1px solid #808080;
+}
+
+/* line 171, resources/assets/styles/layouts/_pages.scss */
+
+#gform_fields_2 .ginput_container {
+  margin-top: 0;
+}
+
+/* line 175, resources/assets/styles/layouts/_pages.scss */
+
+#gform_fields_2 .gfield_radio {
+  margin-top: 0;
+}
+
+/* line 176, resources/assets/styles/layouts/_pages.scss */
+
+#gform_fields_2 .gfield_radio li {
+  font-size: 1.125rem;
+  font-family: "Poppins-Regular";
+  margin-top: -10px;
+}
+
+/* line 182, resources/assets/styles/layouts/_pages.scss */
+
+#gform_fields_2 .gfield_radio li input {
+  max-height: 30px;
+}
+
+/* line 194, resources/assets/styles/layouts/_pages.scss */
+
+.ContactContainer {
+  max-width: 900px;
+}
+
+/* line 197, resources/assets/styles/layouts/_pages.scss */
+
+.ContactContainer .formContainer {
+  max-width: 500px;
+}
+
+/* line 202, resources/assets/styles/layouts/_pages.scss */
+
+#ctaContent {
+  max-width: 600px;
+  margin-top: -100px;
+}
+
+/* line 206, resources/assets/styles/layouts/_pages.scss */
+
+#ctaContent .contentHeaderText {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 213, resources/assets/styles/layouts/_pages.scss */
+
+#pricingrid {
+  margin-left: 0 !important;
+}
+
+/* line 217, resources/assets/styles/layouts/_pages.scss */
+
+.uspPricing {
+  position: relative;
+  margin-top: -170px;
+  background: #fff;
+  color: #3c3c3b;
+  box-sizing: border-box;
+  max-width: 530px;
+  -webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* line 228, resources/assets/styles/layouts/_pages.scss */
+
+.uspPricing ul li {
+  margin-bottom: 20px;
+  list-style: none;
+  font-family: "Poppins-Regular";
+  font-size: 1.375rem;
+}
+
+/* line 237, resources/assets/styles/layouts/_pages.scss */
+
+.uspPricing ul li h3 {
+  padding-top: 10px;
+}
+
+/* line 241, resources/assets/styles/layouts/_pages.scss */
+
+.uspPricing ul li h2 {
+  font-family: "Poppins-Medium" !important;
+  font-size: 3rem !important;
+}
+
+/* line 248, resources/assets/styles/layouts/_pages.scss */
+
+.uspPricing ul li svg {
+  margin-right: 15px;
+  width: 22px;
+}
+
+/* line 255, resources/assets/styles/layouts/_pages.scss */
+
+.uspPricing .textPrice {
+  font-family: "Poppins-Regular";
+  font-size: 1.375rem;
+}
+
+/* line 263, resources/assets/styles/layouts/_pages.scss */
+
+.titlePricingCard {
+  background-color: #2a52be;
+}
+
+/* line 266, resources/assets/styles/layouts/_pages.scss */
+
+.titlePricingCard h2 {
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 2.375rem;
+  font-family: "Poppins-Regular";
+}
+
+/* line 278, resources/assets/styles/layouts/_pages.scss */
+
+.titlePricingCard2 {
+  background-color: #0d0872;
+}
+
+/* line 281, resources/assets/styles/layouts/_pages.scss */
+
+.titlePricingCard2 h2 {
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 2.375rem;
+  font-family: "Poppins-Regular";
+}
+
+/* line 293, resources/assets/styles/layouts/_pages.scss */
+
+#text {
+  position: absolute;
+  color: #fff;
+  width: 50%;
+  background: #c70039;
+  top: 0;
+  font-family: "Poppins-Light";
+  font-size: 0.875rem;
+}
+
+/* line 305, resources/assets/styles/layouts/_pages.scss */
+
+#text p {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* line 312, resources/assets/styles/layouts/_pages.scss */
+
+.uk-table #tableData {
+  border-top: unset;
+  border-bottom: 2px solid #000;
+  box-shadow: 0 40px 5px -7px rgba(0, 0, 0, 0.04);
+}
+
+/* line 317, resources/assets/styles/layouts/_pages.scss */
+
+.uk-table #tableData svg {
+  fill: #c70039;
+}
+
+/* line 322, resources/assets/styles/layouts/_pages.scss */
+
+.uk-table th {
+  font-size: 1.5rem;
+  font-family: "Poppins-Bold";
+  text-transform: none;
+  color: #000;
+}
+
+/* line 332, resources/assets/styles/layouts/_pages.scss */
+
+.uk-table .dataNaam {
+  font-size: 1.25rem;
+  font-family: "Poppins-Light";
+  min-width: 120px;
+}
+
+/* line 341, resources/assets/styles/layouts/_pages.scss */
+
+.uk-table .dataNaamSoon {
+  font-size: 1.25rem;
+  font-family: "Poppins-Light";
+  padding: 0;
+  min-width: 120px;
+}
+
+/* line 347, resources/assets/styles/layouts/_pages.scss */
+
+.uk-table .dataNaamSoon #soon {
+  position: absolute;
+  margin-left: 120px;
+  margin-top: -35px;
+}
+
+/* line 353, resources/assets/styles/layouts/_pages.scss */
+
+.uk-table .dataNaamSoon img {
+  margin-left: -23px;
+  height: 71px;
+  z-index: 4;
+  margin-top: -19px;
+  margin-bottom: -6px;
+}
+
+/* line 361, resources/assets/styles/layouts/_pages.scss */
+
+.uk-table .dataNaamSoon span {
+  z-index: 7;
+  margin-left: -100px;
+  color: #fff;
+  padding-right: 15px;
+  font-size: 12px;
+  font-family: "Poppins-Light";
+}
+
+/* line 377, resources/assets/styles/layouts/_pages.scss */
+
+.uk-table .data1 {
+  font-size: 1.25rem;
+  font-family: "Poppins-Light";
+  min-width: 120px;
+}
+
+/* line 386, resources/assets/styles/layouts/_pages.scss */
+
+.uk-table .data2 {
+  font-size: 1.25rem;
+  font-family: "Poppins-Light";
+  min-width: 120px;
+}
+
+/* line 396, resources/assets/styles/layouts/_pages.scss */
+
+#cdcMobile {
+  display: none;
+}
+
+/* line 400, resources/assets/styles/layouts/_pages.scss */
+
+.previous {
+  fill: #c70039;
+  width: 42px;
+  height: 42px;
+  transform: scale(-1, 1);
+  color: #1c87c9;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+}
+
+/* line 412, resources/assets/styles/layouts/_pages.scss */
+
+.next {
+  fill: #c70039;
+  width: 42px;
+  height: 42px;
+}
+
+@media (max-width: 960px) {
+  /* line 419, resources/assets/styles/layouts/_pages.scss */
+
+  #uspPricing2 {
+    margin-top: 0;
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* line 426, resources/assets/styles/layouts/_pages.scss */
+
+  #headerBox {
+    max-width: none !important;
+  }
+
+  /* line 430, resources/assets/styles/layouts/_pages.scss */
+
+  #text {
+    font-size: 1.125rem;
+  }
+
+  /* line 434, resources/assets/styles/layouts/_pages.scss */
+
+  #pricingrid {
+    margin-left: -30px !important;
+  }
+
+  /* line 438, resources/assets/styles/layouts/_pages.scss */
+
+  #uspPricing2 {
+    margin-top: 0;
+    padding-top: 70px;
+  }
+
+  /* line 443, resources/assets/styles/layouts/_pages.scss */
+
+  .uspPricing {
+    margin-top: -200px;
+  }
+
+  /* line 444, resources/assets/styles/layouts/_pages.scss */
+
+  .uspPricing ul {
+    padding-left: 0;
+  }
+
+  /* line 451, resources/assets/styles/layouts/_pages.scss */
+
+  .content {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  /* line 456, resources/assets/styles/layouts/_pages.scss */
+
+  .dataNaam {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 14px !important;
+  }
+
+  /* line 462, resources/assets/styles/layouts/_pages.scss */
+
+  .data1 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 14px !important;
+  }
+
+  /* line 468, resources/assets/styles/layouts/_pages.scss */
+
+  .data2 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 14px !important;
+  }
+
+  /* line 474, resources/assets/styles/layouts/_pages.scss */
+
+  .dataNaamSoon {
+    font-size: 14px !important;
+  }
+
+  /* line 477, resources/assets/styles/layouts/_pages.scss */
+
+  .dataNaamSoon span {
+    font-size: 9px !important;
+    margin-left: -70px !important;
+    padding-right: 12px !important;
+  }
+
+  /* line 483, resources/assets/styles/layouts/_pages.scss */
+
+  .dataNaamSoon img {
+    margin-left: -14px !important;
+    margin-top: -16px !important;
+    height: 61px !important;
+    width: 80px;
+  }
+
+  /* line 490, resources/assets/styles/layouts/_pages.scss */
+
+  .dataNaamSoon #soon {
+    margin-left: 70px !important;
+    margin-top: -28px !important;
+  }
+
+  /* line 496, resources/assets/styles/layouts/_pages.scss */
+
+  th {
+    font-size: 1rem !important;
+  }
+
+  /* line 502, resources/assets/styles/layouts/_pages.scss */
+
+  .integratiText {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* line 507, resources/assets/styles/layouts/_pages.scss */
+
+  .uspContact {
+    margin-top: -170px;
+  }
+
+  /* line 511, resources/assets/styles/layouts/_pages.scss */
+
+  .uspRegister {
+    margin-top: -170px;
+    padding: 40px 30px 20px 30px;
+  }
+
+  /* line 516, resources/assets/styles/layouts/_pages.scss */
+
+  #cdc {
+    display: none;
+  }
+
+  /* line 520, resources/assets/styles/layouts/_pages.scss */
+
+  #cdcMobile {
+    display: block;
+  }
+
+  /* line 524, resources/assets/styles/layouts/_pages.scss */
+
+  .titlePricingCard {
+    background-color: #2a52be;
+  }
+
+  /* line 527, resources/assets/styles/layouts/_pages.scss */
+
+  .titlePricingCard h2 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 2rem;
+  }
+
+  /* line 537, resources/assets/styles/layouts/_pages.scss */
+
+  .titlePricingCard2 {
+    background-color: #0d0872;
+  }
+
+  /* line 540, resources/assets/styles/layouts/_pages.scss */
+
+  .titlePricingCard2 h2 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 2rem;
+  }
+
+  /* line 550, resources/assets/styles/layouts/_pages.scss */
+
+  .integratieList {
+    padding-left: 15px;
+  }
+}
+
+/* line 1, resources/assets/styles/layouts/_footer.scss */
+
+footer {
+  background: #0a1430;
+  color: #fff;
+}
+
+/* line 5, resources/assets/styles/layouts/_footer.scss */
+
+footer .navigation {
+  padding: 20px 0;
+}
+
+/* line 8, resources/assets/styles/layouts/_footer.scss */
+
+footer .navigation h3 {
+  color: #fff;
+}
+
+/* line 14, resources/assets/styles/layouts/_footer.scss */
+
+footer .navigation ul li a {
+  color: #fff;
+}
+
+/* line 17, resources/assets/styles/layouts/_footer.scss */
+
+footer .navigation ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 22, resources/assets/styles/layouts/_footer.scss */
+
+footer .navigation ul li a::before {
+  font-family: "icons";
+  font-size: 0.75rem;
+  content: "\EA08";
+  margin-right: 5px;
+}
+
+/* line 36, resources/assets/styles/layouts/_footer.scss */
+
+footer .navigation .icons .icon {
+  padding-left: 10px;
+}
+
+/* line 43, resources/assets/styles/layouts/_footer.scss */
+
+footer .contactFooter a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 49, resources/assets/styles/layouts/_footer.scss */
+
+footer .privacy {
+  font-family: "Poppins-Light";
+  font-size: 0.875rem;
+  padding: 10px 0;
+  background: #050a18;
+}
+
+/* line 58, resources/assets/styles/layouts/_footer.scss */
+
+footer .privacy a {
+  color: #fff;
+}
+
+/* line 61, resources/assets/styles/layouts/_footer.scss */
+
+footer .privacy a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  /* line 70, resources/assets/styles/layouts/_footer.scss */
+
+  #voorwaard {
+    text-align: unset !important;
+  }
+}
+
+/* line 1, resources/assets/styles/components/_buttons.scss */
+
+.btn-cta {
+  font-family: "Poppins-Medium";
+  font-size: 1.25rem;
+  color: #fff;
+  background: #c70039;
+  padding: 10px 20px;
+}
+
+/* line 11, resources/assets/styles/components/_buttons.scss */
+
+.btn-cta:hover {
+  color: #fff;
+}
+
+/* line 16, resources/assets/styles/components/_buttons.scss */
+
+.btn-someone {
+  font-family: "Poppins-Medium";
+  font-size: 1.25rem;
+  color: #fff;
+  background: #0d0872;
+  padding: 10px 20px;
+}
+
+/* line 26, resources/assets/styles/components/_buttons.scss */
+
+.btn-someone:hover {
+  color: #0d0872;
+}
+
+/* line 31, resources/assets/styles/components/_buttons.scss */
+
+.btn-business {
+  font-family: "Poppins-Medium";
+  font-size: 1.25rem;
+  color: #fff;
+  background: #2a52be;
+  padding: 10px 20px;
+}
+
+/* line 41, resources/assets/styles/components/_buttons.scss */
+
+.btn-business:hover {
+  color: #2a52be;
+}
+
+/* line 46, resources/assets/styles/components/_buttons.scss */
+
+.btn-belons {
+  font-family: "Poppins-Medium";
+  font-size: 2rem;
+  color: #fff;
+  background: transparent;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  text-transform: none;
+}
+
+/* line 58, resources/assets/styles/components/_buttons.scss */
+
+.btn-belons:hover {
+  color: #fff;
+  background-color: #c70039;
+}
+
+@media (max-width: 640px) {
+  /* line 65, resources/assets/styles/components/_buttons.scss */
+
+  .btn-cta {
+    width: 100%;
+  }
+
+  /* line 69, resources/assets/styles/components/_buttons.scss */
+
+  .btn-belons {
+    width: 100%;
+  }
+}
+
+/** Search form */
+
+
+/*# sourceMappingURL=main.css.map*/
